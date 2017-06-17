@@ -1,0 +1,29 @@
+﻿@inject Microsoft.ApplicationInsights.AspNetCore.JavaScriptSnippet JavaScriptSnippet
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="Meowplode" />
+    <meta property="og:description" content="Quickly, you have to save a kitten!" />
+    <meta property="og:image" content="http://meowplode.azurewebsites.net/images/meowplode.png" />
+    <title>@ViewData["Title"]</title>
+    <link rel="icon" type="image/png" href="~/cat.png" />
+    <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    @Html.Raw(JavaScriptSnippet.FullScript)
+</head>
+<body>
+    <div id="root" style="height: 100%"></div>
+    <div class="container body-content">
+        @RenderBody()
+    </div>
+
+    <% for (var chunk in htmlWebpackPlugin.files.chunks) { %>
+    <script src="<%= htmlWebpackPlugin.files.chunks[chunk].entry %>"></script>
+    <% } %>
+
+    <script src="~/js/site.js" asp-append-version="true"></script>
+</body>
+</html>

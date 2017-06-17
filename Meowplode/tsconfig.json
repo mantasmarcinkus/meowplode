@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": true,
+    "jsx": "react",
+    "module": "commonjs",
+    "allowJs": true,
+    "strictNullChecks": true,
+    "outDir": "./bin/js"
+  }
+}

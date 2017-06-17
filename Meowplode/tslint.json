@@ -1,0 +1,9 @@
+{
+  "extends": ["tslint:latest", "tslint-react"],
+  "rules":{
+    "interface-name": false,
+    "no-empty-interface": false,
+    "arrow-parens": false,
+    "no-var-requires": false
+  }
+}

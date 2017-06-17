@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meowplode", "Meowplode\Meowplode.csproj", "{BB32E102-40E6-4004-9631-5177D3CD17B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meowplode.BL", "Meowplode.BL\Meowplode.BL.csproj", "{0D0E7FC2-F1AD-4098-9333-90FC0E939776}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meowplode.DAL", "Meowplode.DAL\Meowplode.DAL.csproj", "{6C5F1051-0902-4030-AA77-5B1F3C10D1C6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB32E102-40E6-4004-9631-5177D3CD17B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB32E102-40E6-4004-9631-5177D3CD17B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB32E102-40E6-4004-9631-5177D3CD17B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB32E102-40E6-4004-9631-5177D3CD17B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D0E7FC2-F1AD-4098-9333-90FC0E939776}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D0E7FC2-F1AD-4098-9333-90FC0E939776}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D0E7FC2-F1AD-4098-9333-90FC0E939776}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D0E7FC2-F1AD-4098-9333-90FC0E939776}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C5F1051-0902-4030-AA77-5B1F3C10D1C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C5F1051-0902-4030-AA77-5B1F3C10D1C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C5F1051-0902-4030-AA77-5B1F3C10D1C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C5F1051-0902-4030-AA77-5B1F3C10D1C6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
