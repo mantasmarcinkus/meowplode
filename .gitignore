@@ -1,8 +1,4 @@
 Meowplode/node_modules
 Meowplode/Meowplode.csproj.user
-Meowplode/bin
-Meowplode/obj
-Meowplode.BL/bin
-Meowplode.BL/obj
-Meowplode.DAL/bin
-Meowplode.DAL/obj
+**/bin
+**/obj

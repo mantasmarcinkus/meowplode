@@ -8,18 +8,22 @@ using System.Linq;
 
 namespace Meowplode.BL
 {
+    /// <summary>
+    /// Manages Quiz game
+    /// </summary>
     public class GameManager : IGameManager
     {
-        private const int QUESTION_COUNT = 10;
+        private readonly int _questionCount;
 
         private readonly IRepository<Question, Guid> _questionRepo;
 
         private readonly IRepository<Leaderboard, Guid> _leaderboardRepo;
 
-        public GameManager(IRepository<Question, Guid> questionRepo, IRepository<Leaderboard, Guid> leaderboardRepo)
+        public GameManager(IRepository<Question, Guid> questionRepo, IRepository<Leaderboard, Guid> leaderboardRepo, int questionCount = 10)
         {
             _questionRepo = questionRepo;
             _leaderboardRepo = leaderboardRepo;
+            _questionCount = questionCount;
         }
 
         /// <summary>
@@ -28,13 +32,19 @@ namespace Meowplode.BL
         /// <returns>List of questions</returns>
         public IEnumerable<QuestionDTO> GetQuizQuestions()
         {
-            // TODO: Shuffle Options too!
-            return _questionRepo.GetAll().ToList().Shuffle().Take(QUESTION_COUNT).ToDTOs();
+            return _questionRepo.GetAll().ToList().Shuffle().Take(_questionCount).ToDTOs();
         }
 
+        /// <summary>
+        /// Saves players name and results to storage
+        /// </summary>
+        /// <param name="submission"></param>
+        /// <returns>GameResult object containing bool property Success</returns>
         public GameResult SaveResult(SubmissionDTO submission)
         {
-            var questionAnsweredCorrectly = _questionRepo.GetAll().Where(question =>
+            var questionAnsweredCorrectly = _questionRepo
+                .GetAll()
+                .Where(question =>
                     submission.ProvidedResults.Any(r => r.QuestionId == question.Id) &&
                     question.Options.FirstOrDefault(x => x.Correct).Id == submission.ProvidedResults.FirstOrDefault(sb => sb.QuestionId == question.Id).OptionId);
 
@@ -43,16 +53,13 @@ namespace Meowplode.BL
             {
                 DateCreated = DateTime.Now,
                 Name = submission.Name,
-                Result = count == QUESTION_COUNT,
+                Result = count == _questionCount,
                 SuccessfullyAnswered = count
             });
 
             _leaderboardRepo.Commit();
 
-            return new GameResult()
-            {
-                Success = count == QUESTION_COUNT
-            };
+            return new GameResult(count == _questionCount);
         }
 
     }

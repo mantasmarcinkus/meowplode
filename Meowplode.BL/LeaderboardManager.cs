@@ -7,6 +7,9 @@ using System.Linq;
 
 namespace Meowplode.BL
 {
+    /// <summary>
+    /// Leaderboard manager
+    /// </summary>
     public class LeaderboardManager : ILeaderboardManager
     {
         private const int LEADERBOARD_COUNT = 10;
@@ -18,6 +21,10 @@ namespace Meowplode.BL
             _leaderboardRepo = leaderboardRepo;
         }
 
+        /// <summary>
+        /// Gets last X number of players that played the game
+        /// </summary>
+        /// <returns></returns>
         public IEnumerable<PlayerDTO> GetLeaderboard()
         {
             return _leaderboardRepo.GetAll().OrderByDescending(x => x.DateCreated).Take(LEADERBOARD_COUNT).ToList().ToDTOs();
