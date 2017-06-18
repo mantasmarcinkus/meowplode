@@ -2,9 +2,7 @@ import * as React from "react";
 import { Dispatch } from "redux";
 import { Player } from "../models";
 import { ActionCreators, State } from "../module";
-
-const Cat = require("../assets/cat.png");
-const Tombstone = require("../assets/tombstone.png");
+import { ImageLoader } from "./ImageLoader";
 
 const QUESTION_COUNT = 10;
 
@@ -21,7 +19,7 @@ export const Leaderboard = (props: Props) => {
   const listOfPlayers = props.players.map(x => (
     <div key={x.dateCreated} className="leaderboard-row">
       <div className="leaderboard-image">
-        <img alt="result" src={x.result ? Cat : Tombstone} height="24" />
+        <ImageLoader result={x.result} />
       </div>
       <div className="leaderboard-name">
         <span style={{ fontWeight: props.name === x.name ? "bold" : "normal" }}>{x.name}</span>

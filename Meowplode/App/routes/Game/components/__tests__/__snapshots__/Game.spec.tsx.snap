@@ -1,0 +1,2381 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Game /> renders EndGame... 1`] = `
+initialize {
+  "0": Object {
+    "attribs": Object {},
+    "children": Array [
+      Object {
+        "attribs": Object {},
+        "children": Array [
+          Object {
+            "attribs": Object {
+              "src": "image",
+              "style": "max-height:120px;",
+            },
+            "children": Array [],
+            "name": "img",
+            "next": Object {
+              "attribs": Object {},
+              "children": Array [
+                Object {
+                  "attribs": Object {
+                    "style": "font-size:28px;margin:30px;",
+                  },
+                  "children": Array [
+                    Object {
+                      "data": "Yay, you saved a kitten",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "text",
+                    },
+                  ],
+                  "name": "div",
+                  "next": Object {
+                    "attribs": Object {
+                      "class": "border",
+                    },
+                    "children": Array [
+                      Object {
+                        "data": "Let's save another one!",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "text",
+                      },
+                    ],
+                    "name": "button",
+                    "next": Object {
+                      "attribs": Object {},
+                      "children": Array [],
+                      "name": "br",
+                      "next": Object {
+                        "attribs": Object {
+                          "class": "answer",
+                        },
+                        "children": Array [
+                          Object {
+                            "data": "New saver?",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "text",
+                          },
+                        ],
+                        "name": "button",
+                        "next": Object {
+                          "attribs": Object {
+                            "style": "margin-top:20px;",
+                          },
+                          "children": Array [
+                            Object {
+                              "attribs": Object {
+                                "name": "text",
+                              },
+                              "children": Array [],
+                              "name": "test-file-stub",
+                              "next": null,
+                              "parent": [Circular],
+                              "prev": null,
+                              "type": "tag",
+                            },
+                          ],
+                          "name": "div",
+                          "next": Object {
+                            "attribs": Object {
+                              "style": "font-size:10px;margin-top:15px;",
+                            },
+                            "children": Array [
+                              Object {
+                                "attribs": Object {
+                                  "href": "https://www.buzzfeed.com/chelseamarshall/meows?utm_term=.clGnJmJZ4#.nvAZ6z6lK",
+                                },
+                                "children": Array [
+                                  Object {
+                                    "data": "Find out more about kittens! (Hints here!)",
+                                    "next": null,
+                                    "parent": [Circular],
+                                    "prev": null,
+                                    "type": "text",
+                                  },
+                                ],
+                                "name": "a",
+                                "next": null,
+                                "parent": [Circular],
+                                "prev": null,
+                                "type": "tag",
+                              },
+                            ],
+                            "name": "div",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": [Circular],
+                            "type": "tag",
+                          },
+                          "parent": [Circular],
+                          "prev": [Circular],
+                          "type": "tag",
+                        },
+                        "parent": [Circular],
+                        "prev": [Circular],
+                        "type": "tag",
+                      },
+                      "parent": [Circular],
+                      "prev": [Circular],
+                      "type": "tag",
+                    },
+                    "parent": [Circular],
+                    "prev": [Circular],
+                    "type": "tag",
+                  },
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "tag",
+                },
+                Object {
+                  "attribs": Object {
+                    "class": "border",
+                  },
+                  "children": Array [
+                    Object {
+                      "data": "Let's save another one!",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "text",
+                    },
+                  ],
+                  "name": "button",
+                  "next": Object {
+                    "attribs": Object {},
+                    "children": Array [],
+                    "name": "br",
+                    "next": Object {
+                      "attribs": Object {
+                        "class": "answer",
+                      },
+                      "children": Array [
+                        Object {
+                          "data": "New saver?",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "text",
+                        },
+                      ],
+                      "name": "button",
+                      "next": Object {
+                        "attribs": Object {
+                          "style": "margin-top:20px;",
+                        },
+                        "children": Array [
+                          Object {
+                            "attribs": Object {
+                              "name": "text",
+                            },
+                            "children": Array [],
+                            "name": "test-file-stub",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "tag",
+                          },
+                        ],
+                        "name": "div",
+                        "next": Object {
+                          "attribs": Object {
+                            "style": "font-size:10px;margin-top:15px;",
+                          },
+                          "children": Array [
+                            Object {
+                              "attribs": Object {
+                                "href": "https://www.buzzfeed.com/chelseamarshall/meows?utm_term=.clGnJmJZ4#.nvAZ6z6lK",
+                              },
+                              "children": Array [
+                                Object {
+                                  "data": "Find out more about kittens! (Hints here!)",
+                                  "next": null,
+                                  "parent": [Circular],
+                                  "prev": null,
+                                  "type": "text",
+                                },
+                              ],
+                              "name": "a",
+                              "next": null,
+                              "parent": [Circular],
+                              "prev": null,
+                              "type": "tag",
+                            },
+                          ],
+                          "name": "div",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": [Circular],
+                          "type": "tag",
+                        },
+                        "parent": [Circular],
+                        "prev": [Circular],
+                        "type": "tag",
+                      },
+                      "parent": [Circular],
+                      "prev": [Circular],
+                      "type": "tag",
+                    },
+                    "parent": [Circular],
+                    "prev": [Circular],
+                    "type": "tag",
+                  },
+                  "parent": [Circular],
+                  "prev": Object {
+                    "attribs": Object {
+                      "style": "font-size:28px;margin:30px;",
+                    },
+                    "children": Array [
+                      Object {
+                        "data": "Yay, you saved a kitten",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "text",
+                      },
+                    ],
+                    "name": "div",
+                    "next": [Circular],
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "tag",
+                  },
+                  "type": "tag",
+                },
+                Object {
+                  "attribs": Object {},
+                  "children": Array [],
+                  "name": "br",
+                  "next": Object {
+                    "attribs": Object {
+                      "class": "answer",
+                    },
+                    "children": Array [
+                      Object {
+                        "data": "New saver?",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "text",
+                      },
+                    ],
+                    "name": "button",
+                    "next": Object {
+                      "attribs": Object {
+                        "style": "margin-top:20px;",
+                      },
+                      "children": Array [
+                        Object {
+                          "attribs": Object {
+                            "name": "text",
+                          },
+                          "children": Array [],
+                          "name": "test-file-stub",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "tag",
+                        },
+                      ],
+                      "name": "div",
+                      "next": Object {
+                        "attribs": Object {
+                          "style": "font-size:10px;margin-top:15px;",
+                        },
+                        "children": Array [
+                          Object {
+                            "attribs": Object {
+                              "href": "https://www.buzzfeed.com/chelseamarshall/meows?utm_term=.clGnJmJZ4#.nvAZ6z6lK",
+                            },
+                            "children": Array [
+                              Object {
+                                "data": "Find out more about kittens! (Hints here!)",
+                                "next": null,
+                                "parent": [Circular],
+                                "prev": null,
+                                "type": "text",
+                              },
+                            ],
+                            "name": "a",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "tag",
+                          },
+                        ],
+                        "name": "div",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": [Circular],
+                        "type": "tag",
+                      },
+                      "parent": [Circular],
+                      "prev": [Circular],
+                      "type": "tag",
+                    },
+                    "parent": [Circular],
+                    "prev": [Circular],
+                    "type": "tag",
+                  },
+                  "parent": [Circular],
+                  "prev": Object {
+                    "attribs": Object {
+                      "class": "border",
+                    },
+                    "children": Array [
+                      Object {
+                        "data": "Let's save another one!",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "text",
+                      },
+                    ],
+                    "name": "button",
+                    "next": [Circular],
+                    "parent": [Circular],
+                    "prev": Object {
+                      "attribs": Object {
+                        "style": "font-size:28px;margin:30px;",
+                      },
+                      "children": Array [
+                        Object {
+                          "data": "Yay, you saved a kitten",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "text",
+                        },
+                      ],
+                      "name": "div",
+                      "next": [Circular],
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "tag",
+                    },
+                    "type": "tag",
+                  },
+                  "type": "tag",
+                },
+                Object {
+                  "attribs": Object {
+                    "class": "answer",
+                  },
+                  "children": Array [
+                    Object {
+                      "data": "New saver?",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "text",
+                    },
+                  ],
+                  "name": "button",
+                  "next": Object {
+                    "attribs": Object {
+                      "style": "margin-top:20px;",
+                    },
+                    "children": Array [
+                      Object {
+                        "attribs": Object {
+                          "name": "text",
+                        },
+                        "children": Array [],
+                        "name": "test-file-stub",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "tag",
+                      },
+                    ],
+                    "name": "div",
+                    "next": Object {
+                      "attribs": Object {
+                        "style": "font-size:10px;margin-top:15px;",
+                      },
+                      "children": Array [
+                        Object {
+                          "attribs": Object {
+                            "href": "https://www.buzzfeed.com/chelseamarshall/meows?utm_term=.clGnJmJZ4#.nvAZ6z6lK",
+                          },
+                          "children": Array [
+                            Object {
+                              "data": "Find out more about kittens! (Hints here!)",
+                              "next": null,
+                              "parent": [Circular],
+                              "prev": null,
+                              "type": "text",
+                            },
+                          ],
+                          "name": "a",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "tag",
+                        },
+                      ],
+                      "name": "div",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": [Circular],
+                      "type": "tag",
+                    },
+                    "parent": [Circular],
+                    "prev": [Circular],
+                    "type": "tag",
+                  },
+                  "parent": [Circular],
+                  "prev": Object {
+                    "attribs": Object {},
+                    "children": Array [],
+                    "name": "br",
+                    "next": [Circular],
+                    "parent": [Circular],
+                    "prev": Object {
+                      "attribs": Object {
+                        "class": "border",
+                      },
+                      "children": Array [
+                        Object {
+                          "data": "Let's save another one!",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "text",
+                        },
+                      ],
+                      "name": "button",
+                      "next": [Circular],
+                      "parent": [Circular],
+                      "prev": Object {
+                        "attribs": Object {
+                          "style": "font-size:28px;margin:30px;",
+                        },
+                        "children": Array [
+                          Object {
+                            "data": "Yay, you saved a kitten",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "text",
+                          },
+                        ],
+                        "name": "div",
+                        "next": [Circular],
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "tag",
+                      },
+                      "type": "tag",
+                    },
+                    "type": "tag",
+                  },
+                  "type": "tag",
+                },
+                Object {
+                  "attribs": Object {
+                    "style": "margin-top:20px;",
+                  },
+                  "children": Array [
+                    Object {
+                      "attribs": Object {
+                        "name": "text",
+                      },
+                      "children": Array [],
+                      "name": "test-file-stub",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "tag",
+                    },
+                  ],
+                  "name": "div",
+                  "next": Object {
+                    "attribs": Object {
+                      "style": "font-size:10px;margin-top:15px;",
+                    },
+                    "children": Array [
+                      Object {
+                        "attribs": Object {
+                          "href": "https://www.buzzfeed.com/chelseamarshall/meows?utm_term=.clGnJmJZ4#.nvAZ6z6lK",
+                        },
+                        "children": Array [
+                          Object {
+                            "data": "Find out more about kittens! (Hints here!)",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "text",
+                          },
+                        ],
+                        "name": "a",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "tag",
+                      },
+                    ],
+                    "name": "div",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": [Circular],
+                    "type": "tag",
+                  },
+                  "parent": [Circular],
+                  "prev": Object {
+                    "attribs": Object {
+                      "class": "answer",
+                    },
+                    "children": Array [
+                      Object {
+                        "data": "New saver?",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "text",
+                      },
+                    ],
+                    "name": "button",
+                    "next": [Circular],
+                    "parent": [Circular],
+                    "prev": Object {
+                      "attribs": Object {},
+                      "children": Array [],
+                      "name": "br",
+                      "next": [Circular],
+                      "parent": [Circular],
+                      "prev": Object {
+                        "attribs": Object {
+                          "class": "border",
+                        },
+                        "children": Array [
+                          Object {
+                            "data": "Let's save another one!",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "text",
+                          },
+                        ],
+                        "name": "button",
+                        "next": [Circular],
+                        "parent": [Circular],
+                        "prev": Object {
+                          "attribs": Object {
+                            "style": "font-size:28px;margin:30px;",
+                          },
+                          "children": Array [
+                            Object {
+                              "data": "Yay, you saved a kitten",
+                              "next": null,
+                              "parent": [Circular],
+                              "prev": null,
+                              "type": "text",
+                            },
+                          ],
+                          "name": "div",
+                          "next": [Circular],
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "tag",
+                        },
+                        "type": "tag",
+                      },
+                      "type": "tag",
+                    },
+                    "type": "tag",
+                  },
+                  "type": "tag",
+                },
+                Object {
+                  "attribs": Object {
+                    "style": "font-size:10px;margin-top:15px;",
+                  },
+                  "children": Array [
+                    Object {
+                      "attribs": Object {
+                        "href": "https://www.buzzfeed.com/chelseamarshall/meows?utm_term=.clGnJmJZ4#.nvAZ6z6lK",
+                      },
+                      "children": Array [
+                        Object {
+                          "data": "Find out more about kittens! (Hints here!)",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "text",
+                        },
+                      ],
+                      "name": "a",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "tag",
+                    },
+                  ],
+                  "name": "div",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": Object {
+                    "attribs": Object {
+                      "style": "margin-top:20px;",
+                    },
+                    "children": Array [
+                      Object {
+                        "attribs": Object {
+                          "name": "text",
+                        },
+                        "children": Array [],
+                        "name": "test-file-stub",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "tag",
+                      },
+                    ],
+                    "name": "div",
+                    "next": [Circular],
+                    "parent": [Circular],
+                    "prev": Object {
+                      "attribs": Object {
+                        "class": "answer",
+                      },
+                      "children": Array [
+                        Object {
+                          "data": "New saver?",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "text",
+                        },
+                      ],
+                      "name": "button",
+                      "next": [Circular],
+                      "parent": [Circular],
+                      "prev": Object {
+                        "attribs": Object {},
+                        "children": Array [],
+                        "name": "br",
+                        "next": [Circular],
+                        "parent": [Circular],
+                        "prev": Object {
+                          "attribs": Object {
+                            "class": "border",
+                          },
+                          "children": Array [
+                            Object {
+                              "data": "Let's save another one!",
+                              "next": null,
+                              "parent": [Circular],
+                              "prev": null,
+                              "type": "text",
+                            },
+                          ],
+                          "name": "button",
+                          "next": [Circular],
+                          "parent": [Circular],
+                          "prev": Object {
+                            "attribs": Object {
+                              "style": "font-size:28px;margin:30px;",
+                            },
+                            "children": Array [
+                              Object {
+                                "data": "Yay, you saved a kitten",
+                                "next": null,
+                                "parent": [Circular],
+                                "prev": null,
+                                "type": "text",
+                              },
+                            ],
+                            "name": "div",
+                            "next": [Circular],
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "tag",
+                          },
+                          "type": "tag",
+                        },
+                        "type": "tag",
+                      },
+                      "type": "tag",
+                    },
+                    "type": "tag",
+                  },
+                  "type": "tag",
+                },
+              ],
+              "name": "div",
+              "next": null,
+              "parent": [Circular],
+              "prev": [Circular],
+              "type": "tag",
+            },
+            "parent": [Circular],
+            "prev": null,
+            "type": "tag",
+          },
+          Object {
+            "attribs": Object {},
+            "children": Array [
+              Object {
+                "attribs": Object {
+                  "style": "font-size:28px;margin:30px;",
+                },
+                "children": Array [
+                  Object {
+                    "data": "Yay, you saved a kitten",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "text",
+                  },
+                ],
+                "name": "div",
+                "next": Object {
+                  "attribs": Object {
+                    "class": "border",
+                  },
+                  "children": Array [
+                    Object {
+                      "data": "Let's save another one!",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "text",
+                    },
+                  ],
+                  "name": "button",
+                  "next": Object {
+                    "attribs": Object {},
+                    "children": Array [],
+                    "name": "br",
+                    "next": Object {
+                      "attribs": Object {
+                        "class": "answer",
+                      },
+                      "children": Array [
+                        Object {
+                          "data": "New saver?",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "text",
+                        },
+                      ],
+                      "name": "button",
+                      "next": Object {
+                        "attribs": Object {
+                          "style": "margin-top:20px;",
+                        },
+                        "children": Array [
+                          Object {
+                            "attribs": Object {
+                              "name": "text",
+                            },
+                            "children": Array [],
+                            "name": "test-file-stub",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "tag",
+                          },
+                        ],
+                        "name": "div",
+                        "next": Object {
+                          "attribs": Object {
+                            "style": "font-size:10px;margin-top:15px;",
+                          },
+                          "children": Array [
+                            Object {
+                              "attribs": Object {
+                                "href": "https://www.buzzfeed.com/chelseamarshall/meows?utm_term=.clGnJmJZ4#.nvAZ6z6lK",
+                              },
+                              "children": Array [
+                                Object {
+                                  "data": "Find out more about kittens! (Hints here!)",
+                                  "next": null,
+                                  "parent": [Circular],
+                                  "prev": null,
+                                  "type": "text",
+                                },
+                              ],
+                              "name": "a",
+                              "next": null,
+                              "parent": [Circular],
+                              "prev": null,
+                              "type": "tag",
+                            },
+                          ],
+                          "name": "div",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": [Circular],
+                          "type": "tag",
+                        },
+                        "parent": [Circular],
+                        "prev": [Circular],
+                        "type": "tag",
+                      },
+                      "parent": [Circular],
+                      "prev": [Circular],
+                      "type": "tag",
+                    },
+                    "parent": [Circular],
+                    "prev": [Circular],
+                    "type": "tag",
+                  },
+                  "parent": [Circular],
+                  "prev": [Circular],
+                  "type": "tag",
+                },
+                "parent": [Circular],
+                "prev": null,
+                "type": "tag",
+              },
+              Object {
+                "attribs": Object {
+                  "class": "border",
+                },
+                "children": Array [
+                  Object {
+                    "data": "Let's save another one!",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "text",
+                  },
+                ],
+                "name": "button",
+                "next": Object {
+                  "attribs": Object {},
+                  "children": Array [],
+                  "name": "br",
+                  "next": Object {
+                    "attribs": Object {
+                      "class": "answer",
+                    },
+                    "children": Array [
+                      Object {
+                        "data": "New saver?",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "text",
+                      },
+                    ],
+                    "name": "button",
+                    "next": Object {
+                      "attribs": Object {
+                        "style": "margin-top:20px;",
+                      },
+                      "children": Array [
+                        Object {
+                          "attribs": Object {
+                            "name": "text",
+                          },
+                          "children": Array [],
+                          "name": "test-file-stub",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "tag",
+                        },
+                      ],
+                      "name": "div",
+                      "next": Object {
+                        "attribs": Object {
+                          "style": "font-size:10px;margin-top:15px;",
+                        },
+                        "children": Array [
+                          Object {
+                            "attribs": Object {
+                              "href": "https://www.buzzfeed.com/chelseamarshall/meows?utm_term=.clGnJmJZ4#.nvAZ6z6lK",
+                            },
+                            "children": Array [
+                              Object {
+                                "data": "Find out more about kittens! (Hints here!)",
+                                "next": null,
+                                "parent": [Circular],
+                                "prev": null,
+                                "type": "text",
+                              },
+                            ],
+                            "name": "a",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "tag",
+                          },
+                        ],
+                        "name": "div",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": [Circular],
+                        "type": "tag",
+                      },
+                      "parent": [Circular],
+                      "prev": [Circular],
+                      "type": "tag",
+                    },
+                    "parent": [Circular],
+                    "prev": [Circular],
+                    "type": "tag",
+                  },
+                  "parent": [Circular],
+                  "prev": [Circular],
+                  "type": "tag",
+                },
+                "parent": [Circular],
+                "prev": Object {
+                  "attribs": Object {
+                    "style": "font-size:28px;margin:30px;",
+                  },
+                  "children": Array [
+                    Object {
+                      "data": "Yay, you saved a kitten",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "text",
+                    },
+                  ],
+                  "name": "div",
+                  "next": [Circular],
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "tag",
+                },
+                "type": "tag",
+              },
+              Object {
+                "attribs": Object {},
+                "children": Array [],
+                "name": "br",
+                "next": Object {
+                  "attribs": Object {
+                    "class": "answer",
+                  },
+                  "children": Array [
+                    Object {
+                      "data": "New saver?",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "text",
+                    },
+                  ],
+                  "name": "button",
+                  "next": Object {
+                    "attribs": Object {
+                      "style": "margin-top:20px;",
+                    },
+                    "children": Array [
+                      Object {
+                        "attribs": Object {
+                          "name": "text",
+                        },
+                        "children": Array [],
+                        "name": "test-file-stub",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "tag",
+                      },
+                    ],
+                    "name": "div",
+                    "next": Object {
+                      "attribs": Object {
+                        "style": "font-size:10px;margin-top:15px;",
+                      },
+                      "children": Array [
+                        Object {
+                          "attribs": Object {
+                            "href": "https://www.buzzfeed.com/chelseamarshall/meows?utm_term=.clGnJmJZ4#.nvAZ6z6lK",
+                          },
+                          "children": Array [
+                            Object {
+                              "data": "Find out more about kittens! (Hints here!)",
+                              "next": null,
+                              "parent": [Circular],
+                              "prev": null,
+                              "type": "text",
+                            },
+                          ],
+                          "name": "a",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "tag",
+                        },
+                      ],
+                      "name": "div",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": [Circular],
+                      "type": "tag",
+                    },
+                    "parent": [Circular],
+                    "prev": [Circular],
+                    "type": "tag",
+                  },
+                  "parent": [Circular],
+                  "prev": [Circular],
+                  "type": "tag",
+                },
+                "parent": [Circular],
+                "prev": Object {
+                  "attribs": Object {
+                    "class": "border",
+                  },
+                  "children": Array [
+                    Object {
+                      "data": "Let's save another one!",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "text",
+                    },
+                  ],
+                  "name": "button",
+                  "next": [Circular],
+                  "parent": [Circular],
+                  "prev": Object {
+                    "attribs": Object {
+                      "style": "font-size:28px;margin:30px;",
+                    },
+                    "children": Array [
+                      Object {
+                        "data": "Yay, you saved a kitten",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "text",
+                      },
+                    ],
+                    "name": "div",
+                    "next": [Circular],
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "tag",
+                  },
+                  "type": "tag",
+                },
+                "type": "tag",
+              },
+              Object {
+                "attribs": Object {
+                  "class": "answer",
+                },
+                "children": Array [
+                  Object {
+                    "data": "New saver?",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "text",
+                  },
+                ],
+                "name": "button",
+                "next": Object {
+                  "attribs": Object {
+                    "style": "margin-top:20px;",
+                  },
+                  "children": Array [
+                    Object {
+                      "attribs": Object {
+                        "name": "text",
+                      },
+                      "children": Array [],
+                      "name": "test-file-stub",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "tag",
+                    },
+                  ],
+                  "name": "div",
+                  "next": Object {
+                    "attribs": Object {
+                      "style": "font-size:10px;margin-top:15px;",
+                    },
+                    "children": Array [
+                      Object {
+                        "attribs": Object {
+                          "href": "https://www.buzzfeed.com/chelseamarshall/meows?utm_term=.clGnJmJZ4#.nvAZ6z6lK",
+                        },
+                        "children": Array [
+                          Object {
+                            "data": "Find out more about kittens! (Hints here!)",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "text",
+                          },
+                        ],
+                        "name": "a",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "tag",
+                      },
+                    ],
+                    "name": "div",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": [Circular],
+                    "type": "tag",
+                  },
+                  "parent": [Circular],
+                  "prev": [Circular],
+                  "type": "tag",
+                },
+                "parent": [Circular],
+                "prev": Object {
+                  "attribs": Object {},
+                  "children": Array [],
+                  "name": "br",
+                  "next": [Circular],
+                  "parent": [Circular],
+                  "prev": Object {
+                    "attribs": Object {
+                      "class": "border",
+                    },
+                    "children": Array [
+                      Object {
+                        "data": "Let's save another one!",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "text",
+                      },
+                    ],
+                    "name": "button",
+                    "next": [Circular],
+                    "parent": [Circular],
+                    "prev": Object {
+                      "attribs": Object {
+                        "style": "font-size:28px;margin:30px;",
+                      },
+                      "children": Array [
+                        Object {
+                          "data": "Yay, you saved a kitten",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "text",
+                        },
+                      ],
+                      "name": "div",
+                      "next": [Circular],
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "tag",
+                    },
+                    "type": "tag",
+                  },
+                  "type": "tag",
+                },
+                "type": "tag",
+              },
+              Object {
+                "attribs": Object {
+                  "style": "margin-top:20px;",
+                },
+                "children": Array [
+                  Object {
+                    "attribs": Object {
+                      "name": "text",
+                    },
+                    "children": Array [],
+                    "name": "test-file-stub",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "tag",
+                  },
+                ],
+                "name": "div",
+                "next": Object {
+                  "attribs": Object {
+                    "style": "font-size:10px;margin-top:15px;",
+                  },
+                  "children": Array [
+                    Object {
+                      "attribs": Object {
+                        "href": "https://www.buzzfeed.com/chelseamarshall/meows?utm_term=.clGnJmJZ4#.nvAZ6z6lK",
+                      },
+                      "children": Array [
+                        Object {
+                          "data": "Find out more about kittens! (Hints here!)",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "text",
+                        },
+                      ],
+                      "name": "a",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "tag",
+                    },
+                  ],
+                  "name": "div",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": [Circular],
+                  "type": "tag",
+                },
+                "parent": [Circular],
+                "prev": Object {
+                  "attribs": Object {
+                    "class": "answer",
+                  },
+                  "children": Array [
+                    Object {
+                      "data": "New saver?",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "text",
+                    },
+                  ],
+                  "name": "button",
+                  "next": [Circular],
+                  "parent": [Circular],
+                  "prev": Object {
+                    "attribs": Object {},
+                    "children": Array [],
+                    "name": "br",
+                    "next": [Circular],
+                    "parent": [Circular],
+                    "prev": Object {
+                      "attribs": Object {
+                        "class": "border",
+                      },
+                      "children": Array [
+                        Object {
+                          "data": "Let's save another one!",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "text",
+                        },
+                      ],
+                      "name": "button",
+                      "next": [Circular],
+                      "parent": [Circular],
+                      "prev": Object {
+                        "attribs": Object {
+                          "style": "font-size:28px;margin:30px;",
+                        },
+                        "children": Array [
+                          Object {
+                            "data": "Yay, you saved a kitten",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "text",
+                          },
+                        ],
+                        "name": "div",
+                        "next": [Circular],
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "tag",
+                      },
+                      "type": "tag",
+                    },
+                    "type": "tag",
+                  },
+                  "type": "tag",
+                },
+                "type": "tag",
+              },
+              Object {
+                "attribs": Object {
+                  "style": "font-size:10px;margin-top:15px;",
+                },
+                "children": Array [
+                  Object {
+                    "attribs": Object {
+                      "href": "https://www.buzzfeed.com/chelseamarshall/meows?utm_term=.clGnJmJZ4#.nvAZ6z6lK",
+                    },
+                    "children": Array [
+                      Object {
+                        "data": "Find out more about kittens! (Hints here!)",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "text",
+                      },
+                    ],
+                    "name": "a",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "tag",
+                  },
+                ],
+                "name": "div",
+                "next": null,
+                "parent": [Circular],
+                "prev": Object {
+                  "attribs": Object {
+                    "style": "margin-top:20px;",
+                  },
+                  "children": Array [
+                    Object {
+                      "attribs": Object {
+                        "name": "text",
+                      },
+                      "children": Array [],
+                      "name": "test-file-stub",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "tag",
+                    },
+                  ],
+                  "name": "div",
+                  "next": [Circular],
+                  "parent": [Circular],
+                  "prev": Object {
+                    "attribs": Object {
+                      "class": "answer",
+                    },
+                    "children": Array [
+                      Object {
+                        "data": "New saver?",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "text",
+                      },
+                    ],
+                    "name": "button",
+                    "next": [Circular],
+                    "parent": [Circular],
+                    "prev": Object {
+                      "attribs": Object {},
+                      "children": Array [],
+                      "name": "br",
+                      "next": [Circular],
+                      "parent": [Circular],
+                      "prev": Object {
+                        "attribs": Object {
+                          "class": "border",
+                        },
+                        "children": Array [
+                          Object {
+                            "data": "Let's save another one!",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "text",
+                          },
+                        ],
+                        "name": "button",
+                        "next": [Circular],
+                        "parent": [Circular],
+                        "prev": Object {
+                          "attribs": Object {
+                            "style": "font-size:28px;margin:30px;",
+                          },
+                          "children": Array [
+                            Object {
+                              "data": "Yay, you saved a kitten",
+                              "next": null,
+                              "parent": [Circular],
+                              "prev": null,
+                              "type": "text",
+                            },
+                          ],
+                          "name": "div",
+                          "next": [Circular],
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "tag",
+                        },
+                        "type": "tag",
+                      },
+                      "type": "tag",
+                    },
+                    "type": "tag",
+                  },
+                  "type": "tag",
+                },
+                "type": "tag",
+              },
+            ],
+            "name": "div",
+            "next": null,
+            "parent": [Circular],
+            "prev": Object {
+              "attribs": Object {
+                "src": "image",
+                "style": "max-height:120px;",
+              },
+              "children": Array [],
+              "name": "img",
+              "next": [Circular],
+              "parent": [Circular],
+              "prev": null,
+              "type": "tag",
+            },
+            "type": "tag",
+          },
+        ],
+        "name": "div",
+        "next": null,
+        "parent": null,
+        "prev": null,
+        "root": [Circular],
+        "type": "tag",
+      },
+    ],
+    "name": "root",
+    "next": null,
+    "parent": null,
+    "prev": null,
+    "type": "root",
+  },
+  "_root": [Circular],
+  "length": 1,
+  "options": Object {
+    "decodeEntities": true,
+    "normalizeWhitespace": false,
+    "withDomLvl1": true,
+    "xmlMode": false,
+  },
+}
+`;
+
+exports[`<Game /> renders Loading... 1`] = `
+initialize {
+  "0": Object {
+    "attribs": Object {},
+    "children": Array [
+      Object {
+        "attribs": Object {},
+        "children": Array [
+          Object {
+            "attribs": Object {
+              "src": "image",
+              "style": "max-height:120px;",
+            },
+            "children": Array [],
+            "name": "img",
+            "next": Object {
+              "attribs": Object {},
+              "children": Array [
+                Object {
+                  "attribs": Object {},
+                  "children": Array [
+                    Object {
+                      "attribs": Object {
+                        "class": "question",
+                      },
+                      "children": Array [
+                        Object {
+                          "data": "val",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "text",
+                        },
+                      ],
+                      "name": "div",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "tag",
+                    },
+                  ],
+                  "name": "div",
+                  "next": Object {
+                    "attribs": Object {
+                      "class": "digital",
+                      "style": "font-size:60px;color:#FF530D;height:100px;",
+                    },
+                    "children": Array [
+                      Object {
+                        "attribs": Object {},
+                        "children": Array [
+                          Object {
+                            "data": "00:45",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "text",
+                          },
+                        ],
+                        "name": "span",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "tag",
+                      },
+                    ],
+                    "name": "div",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": [Circular],
+                    "type": "tag",
+                  },
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "tag",
+                },
+                Object {
+                  "attribs": Object {
+                    "class": "digital",
+                    "style": "font-size:60px;color:#FF530D;height:100px;",
+                  },
+                  "children": Array [
+                    Object {
+                      "attribs": Object {},
+                      "children": Array [
+                        Object {
+                          "data": "00:45",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "text",
+                        },
+                      ],
+                      "name": "span",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "tag",
+                    },
+                  ],
+                  "name": "div",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": Object {
+                    "attribs": Object {},
+                    "children": Array [
+                      Object {
+                        "attribs": Object {
+                          "class": "question",
+                        },
+                        "children": Array [
+                          Object {
+                            "data": "val",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "text",
+                          },
+                        ],
+                        "name": "div",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "tag",
+                      },
+                    ],
+                    "name": "div",
+                    "next": [Circular],
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "tag",
+                  },
+                  "type": "tag",
+                },
+              ],
+              "name": "div",
+              "next": null,
+              "parent": [Circular],
+              "prev": [Circular],
+              "type": "tag",
+            },
+            "parent": [Circular],
+            "prev": null,
+            "type": "tag",
+          },
+          Object {
+            "attribs": Object {},
+            "children": Array [
+              Object {
+                "attribs": Object {},
+                "children": Array [
+                  Object {
+                    "attribs": Object {
+                      "class": "question",
+                    },
+                    "children": Array [
+                      Object {
+                        "data": "val",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "text",
+                      },
+                    ],
+                    "name": "div",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "tag",
+                  },
+                ],
+                "name": "div",
+                "next": Object {
+                  "attribs": Object {
+                    "class": "digital",
+                    "style": "font-size:60px;color:#FF530D;height:100px;",
+                  },
+                  "children": Array [
+                    Object {
+                      "attribs": Object {},
+                      "children": Array [
+                        Object {
+                          "data": "00:45",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "text",
+                        },
+                      ],
+                      "name": "span",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "tag",
+                    },
+                  ],
+                  "name": "div",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": [Circular],
+                  "type": "tag",
+                },
+                "parent": [Circular],
+                "prev": null,
+                "type": "tag",
+              },
+              Object {
+                "attribs": Object {
+                  "class": "digital",
+                  "style": "font-size:60px;color:#FF530D;height:100px;",
+                },
+                "children": Array [
+                  Object {
+                    "attribs": Object {},
+                    "children": Array [
+                      Object {
+                        "data": "00:45",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "text",
+                      },
+                    ],
+                    "name": "span",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "tag",
+                  },
+                ],
+                "name": "div",
+                "next": null,
+                "parent": [Circular],
+                "prev": Object {
+                  "attribs": Object {},
+                  "children": Array [
+                    Object {
+                      "attribs": Object {
+                        "class": "question",
+                      },
+                      "children": Array [
+                        Object {
+                          "data": "val",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "text",
+                        },
+                      ],
+                      "name": "div",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "tag",
+                    },
+                  ],
+                  "name": "div",
+                  "next": [Circular],
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "tag",
+                },
+                "type": "tag",
+              },
+            ],
+            "name": "div",
+            "next": null,
+            "parent": [Circular],
+            "prev": Object {
+              "attribs": Object {
+                "src": "image",
+                "style": "max-height:120px;",
+              },
+              "children": Array [],
+              "name": "img",
+              "next": [Circular],
+              "parent": [Circular],
+              "prev": null,
+              "type": "tag",
+            },
+            "type": "tag",
+          },
+        ],
+        "name": "div",
+        "next": null,
+        "parent": null,
+        "prev": null,
+        "root": [Circular],
+        "type": "tag",
+      },
+    ],
+    "name": "root",
+    "next": null,
+    "parent": null,
+    "prev": null,
+    "type": "root",
+  },
+  "_root": [Circular],
+  "length": 1,
+  "options": Object {
+    "decodeEntities": true,
+    "normalizeWhitespace": false,
+    "withDomLvl1": true,
+    "xmlMode": false,
+  },
+}
+`;
+
+exports[`<Game /> renders Loading... 2`] = `
+initialize {
+  "0": Object {
+    "attribs": Object {},
+    "children": Array [
+      Object {
+        "attribs": Object {},
+        "children": Array [
+          Object {
+            "attribs": Object {
+              "src": "image",
+              "style": "max-height:120px;",
+            },
+            "children": Array [],
+            "name": "img",
+            "next": Object {
+              "attribs": Object {},
+              "children": Array [
+                Object {
+                  "attribs": Object {},
+                  "children": Array [
+                    Object {
+                      "attribs": Object {
+                        "class": "question",
+                      },
+                      "children": Array [
+                        Object {
+                          "data": "val",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "text",
+                        },
+                      ],
+                      "name": "div",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "tag",
+                    },
+                  ],
+                  "name": "div",
+                  "next": Object {
+                    "attribs": Object {
+                      "class": "digital",
+                      "style": "font-size:60px;color:#FF530D;height:100px;",
+                    },
+                    "children": Array [
+                      Object {
+                        "attribs": Object {},
+                        "children": Array [
+                          Object {
+                            "data": "00:45",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "text",
+                          },
+                        ],
+                        "name": "span",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "tag",
+                      },
+                    ],
+                    "name": "div",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": [Circular],
+                    "type": "tag",
+                  },
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "tag",
+                },
+                Object {
+                  "attribs": Object {
+                    "class": "digital",
+                    "style": "font-size:60px;color:#FF530D;height:100px;",
+                  },
+                  "children": Array [
+                    Object {
+                      "attribs": Object {},
+                      "children": Array [
+                        Object {
+                          "data": "00:45",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "text",
+                        },
+                      ],
+                      "name": "span",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "tag",
+                    },
+                  ],
+                  "name": "div",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": Object {
+                    "attribs": Object {},
+                    "children": Array [
+                      Object {
+                        "attribs": Object {
+                          "class": "question",
+                        },
+                        "children": Array [
+                          Object {
+                            "data": "val",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "text",
+                          },
+                        ],
+                        "name": "div",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "tag",
+                      },
+                    ],
+                    "name": "div",
+                    "next": [Circular],
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "tag",
+                  },
+                  "type": "tag",
+                },
+              ],
+              "name": "div",
+              "next": null,
+              "parent": [Circular],
+              "prev": [Circular],
+              "type": "tag",
+            },
+            "parent": [Circular],
+            "prev": null,
+            "type": "tag",
+          },
+          Object {
+            "attribs": Object {},
+            "children": Array [
+              Object {
+                "attribs": Object {},
+                "children": Array [
+                  Object {
+                    "attribs": Object {
+                      "class": "question",
+                    },
+                    "children": Array [
+                      Object {
+                        "data": "val",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "text",
+                      },
+                    ],
+                    "name": "div",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "tag",
+                  },
+                ],
+                "name": "div",
+                "next": Object {
+                  "attribs": Object {
+                    "class": "digital",
+                    "style": "font-size:60px;color:#FF530D;height:100px;",
+                  },
+                  "children": Array [
+                    Object {
+                      "attribs": Object {},
+                      "children": Array [
+                        Object {
+                          "data": "00:45",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "text",
+                        },
+                      ],
+                      "name": "span",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "tag",
+                    },
+                  ],
+                  "name": "div",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": [Circular],
+                  "type": "tag",
+                },
+                "parent": [Circular],
+                "prev": null,
+                "type": "tag",
+              },
+              Object {
+                "attribs": Object {
+                  "class": "digital",
+                  "style": "font-size:60px;color:#FF530D;height:100px;",
+                },
+                "children": Array [
+                  Object {
+                    "attribs": Object {},
+                    "children": Array [
+                      Object {
+                        "data": "00:45",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "text",
+                      },
+                    ],
+                    "name": "span",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "tag",
+                  },
+                ],
+                "name": "div",
+                "next": null,
+                "parent": [Circular],
+                "prev": Object {
+                  "attribs": Object {},
+                  "children": Array [
+                    Object {
+                      "attribs": Object {
+                        "class": "question",
+                      },
+                      "children": Array [
+                        Object {
+                          "data": "val",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "text",
+                        },
+                      ],
+                      "name": "div",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "tag",
+                    },
+                  ],
+                  "name": "div",
+                  "next": [Circular],
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "tag",
+                },
+                "type": "tag",
+              },
+            ],
+            "name": "div",
+            "next": null,
+            "parent": [Circular],
+            "prev": Object {
+              "attribs": Object {
+                "src": "image",
+                "style": "max-height:120px;",
+              },
+              "children": Array [],
+              "name": "img",
+              "next": [Circular],
+              "parent": [Circular],
+              "prev": null,
+              "type": "tag",
+            },
+            "type": "tag",
+          },
+        ],
+        "name": "div",
+        "next": null,
+        "parent": null,
+        "prev": null,
+        "root": [Circular],
+        "type": "tag",
+      },
+    ],
+    "name": "root",
+    "next": null,
+    "parent": null,
+    "prev": null,
+    "type": "root",
+  },
+  "_root": [Circular],
+  "length": 1,
+  "options": Object {
+    "decodeEntities": true,
+    "normalizeWhitespace": false,
+    "withDomLvl1": true,
+    "xmlMode": false,
+  },
+}
+`;
+
+exports[`<Game /> renders full 1`] = `
+initialize {
+  "0": Object {
+    "attribs": Object {},
+    "children": Array [
+      Object {
+        "attribs": Object {},
+        "children": Array [
+          Object {
+            "attribs": Object {
+              "src": "image",
+              "style": "max-height:120px;",
+            },
+            "children": Array [],
+            "name": "img",
+            "next": Object {
+              "attribs": Object {},
+              "children": Array [
+                Object {
+                  "attribs": Object {},
+                  "children": Array [
+                    Object {
+                      "attribs": Object {
+                        "class": "question",
+                      },
+                      "children": Array [
+                        Object {
+                          "data": "val",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "text",
+                        },
+                      ],
+                      "name": "div",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "tag",
+                    },
+                  ],
+                  "name": "div",
+                  "next": Object {
+                    "attribs": Object {
+                      "class": "digital",
+                      "style": "font-size:60px;color:#FF530D;height:100px;",
+                    },
+                    "children": Array [
+                      Object {
+                        "attribs": Object {},
+                        "children": Array [
+                          Object {
+                            "data": "00:45",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "text",
+                          },
+                        ],
+                        "name": "span",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "tag",
+                      },
+                    ],
+                    "name": "div",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": [Circular],
+                    "type": "tag",
+                  },
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "tag",
+                },
+                Object {
+                  "attribs": Object {
+                    "class": "digital",
+                    "style": "font-size:60px;color:#FF530D;height:100px;",
+                  },
+                  "children": Array [
+                    Object {
+                      "attribs": Object {},
+                      "children": Array [
+                        Object {
+                          "data": "00:45",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "text",
+                        },
+                      ],
+                      "name": "span",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "tag",
+                    },
+                  ],
+                  "name": "div",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": Object {
+                    "attribs": Object {},
+                    "children": Array [
+                      Object {
+                        "attribs": Object {
+                          "class": "question",
+                        },
+                        "children": Array [
+                          Object {
+                            "data": "val",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "text",
+                          },
+                        ],
+                        "name": "div",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "tag",
+                      },
+                    ],
+                    "name": "div",
+                    "next": [Circular],
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "tag",
+                  },
+                  "type": "tag",
+                },
+              ],
+              "name": "div",
+              "next": null,
+              "parent": [Circular],
+              "prev": [Circular],
+              "type": "tag",
+            },
+            "parent": [Circular],
+            "prev": null,
+            "type": "tag",
+          },
+          Object {
+            "attribs": Object {},
+            "children": Array [
+              Object {
+                "attribs": Object {},
+                "children": Array [
+                  Object {
+                    "attribs": Object {
+                      "class": "question",
+                    },
+                    "children": Array [
+                      Object {
+                        "data": "val",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "text",
+                      },
+                    ],
+                    "name": "div",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "tag",
+                  },
+                ],
+                "name": "div",
+                "next": Object {
+                  "attribs": Object {
+                    "class": "digital",
+                    "style": "font-size:60px;color:#FF530D;height:100px;",
+                  },
+                  "children": Array [
+                    Object {
+                      "attribs": Object {},
+                      "children": Array [
+                        Object {
+                          "data": "00:45",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "text",
+                        },
+                      ],
+                      "name": "span",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "tag",
+                    },
+                  ],
+                  "name": "div",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": [Circular],
+                  "type": "tag",
+                },
+                "parent": [Circular],
+                "prev": null,
+                "type": "tag",
+              },
+              Object {
+                "attribs": Object {
+                  "class": "digital",
+                  "style": "font-size:60px;color:#FF530D;height:100px;",
+                },
+                "children": Array [
+                  Object {
+                    "attribs": Object {},
+                    "children": Array [
+                      Object {
+                        "data": "00:45",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "text",
+                      },
+                    ],
+                    "name": "span",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "tag",
+                  },
+                ],
+                "name": "div",
+                "next": null,
+                "parent": [Circular],
+                "prev": Object {
+                  "attribs": Object {},
+                  "children": Array [
+                    Object {
+                      "attribs": Object {
+                        "class": "question",
+                      },
+                      "children": Array [
+                        Object {
+                          "data": "val",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "text",
+                        },
+                      ],
+                      "name": "div",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "tag",
+                    },
+                  ],
+                  "name": "div",
+                  "next": [Circular],
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "tag",
+                },
+                "type": "tag",
+              },
+            ],
+            "name": "div",
+            "next": null,
+            "parent": [Circular],
+            "prev": Object {
+              "attribs": Object {
+                "src": "image",
+                "style": "max-height:120px;",
+              },
+              "children": Array [],
+              "name": "img",
+              "next": [Circular],
+              "parent": [Circular],
+              "prev": null,
+              "type": "tag",
+            },
+            "type": "tag",
+          },
+        ],
+        "name": "div",
+        "next": null,
+        "parent": null,
+        "prev": null,
+        "root": [Circular],
+        "type": "tag",
+      },
+    ],
+    "name": "root",
+    "next": null,
+    "parent": null,
+    "prev": null,
+    "type": "root",
+  },
+  "_root": [Circular],
+  "length": 1,
+  "options": Object {
+    "decodeEntities": true,
+    "normalizeWhitespace": false,
+    "withDomLvl1": true,
+    "xmlMode": false,
+  },
+}
+`;

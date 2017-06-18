@@ -6,7 +6,7 @@ import Container from "./container";
 import { startGame } from "./module";
 
 interface Require extends NodeRequire {
-    ensure: (paths: string[], callback: (require: <T>(path: string) => T) => void, key: string) => void;
+  ensure: (paths: string[], callback: (require: <T>(path: string) => T) => void, key: string) => void;
 }
 
 export default (store: AppStore) => ({

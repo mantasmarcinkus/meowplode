@@ -161,7 +161,7 @@ export interface State {
   lastQuestion: boolean | null;
 }
 
-const initialState: State = {
+export const initialState: State = {
   imageSource: "",
   lastQuestion: null,
   name: null,
@@ -171,7 +171,7 @@ const initialState: State = {
   success: null,
 };
 
-export default function reducer(state = initialState, action: Action): State {
+export default function reducer(state = initialState, action: Action & { payload: any }): State {
   const handler = ACTION_HANDLERS[action.type];
 
   return handler ? handler(state, action) : state;
