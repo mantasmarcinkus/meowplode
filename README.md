@@ -51,5 +51,18 @@ Deployed in Azure (free tier), so it takes some time to launch and is not connec
 For this exact application document database would've been used (relational would be as good).  
 I tried to write the code in a clean and easily extandable way for a simple application. 
 
+## Requirements
+- User is able to enter his name and start a quiz game
+- User is able to answer a given quiz question
+- User can enjoy Gif images from Giphy
+- User is able to use keyboard to navigate Web application
+- User at the end of the game can see how much answers he answered correctly (not which answers)
+- User is able to distinguish whether he succeded in saving a kitten
+- User is able to (in a way) compete with others (by seeing other players results)
+
+## Time spent (approximation)
+- Frontend: 20 (3 - webpack2, typescript, react; 2 - webpack2, typescript, react, karma)
+- Backend: 7 
+
 ## References
 https://github.com/davezuko/react-redux-starter-kit (Used this as a good structural example for react, redux)
