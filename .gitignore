@@ -2,3 +2,4 @@ Meowplode/node_modules
 Meowplode/Meowplode.csproj.user
 **/bin
 **/obj
+.vs/

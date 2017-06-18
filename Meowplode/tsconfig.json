@@ -8,5 +8,12 @@
     "allowJs": true,
     "strictNullChecks": true,
     "outDir": "./bin/js"
-  }
+  },
+  "include": [
+    "App"
+  ],
+  "exclude": [
+    "App/**/*.spec.tsx",
+    "App/**/*.spec.ts"
+  ]
 }
