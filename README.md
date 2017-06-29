@@ -64,5 +64,13 @@ I tried to write the code in a clean and easily extandable way for a simple appl
 - Frontend: 20 (3 - webpack2, typescript, react; 2 - webpack2, typescript, react, karma)
 - Backend: 7 
 
+## To do
+- [Look into seperating codebase with Learna](https://github.com/lerna/lerna)
+- Migrate to webpack 3
+- [Migrate Action creators](https://github.com/aikoven/typescript-fsa) and [Reducers](https://github.com/dphilipson/typescript-fsa-reducers)
+- Migrate backend to [Go](https://golang.org/)
+- Add [animations](https://github.com/FormidableLabs/react-animations)
+
 ## References
 https://github.com/davezuko/react-redux-starter-kit (Used this as a good structural example for react, redux)
+
